@@ -1,9 +1,9 @@
 class KubectlServicePlugin < Formula
   desc "A kubectl plugin that open the Kubernetes URL(s) for the specified service in your browser."
   homepage "https://github.com/superbrothers/kubectl-service-plugin"
-  version "v1.0.0"
+  version "v1.1.0"
   url "https://github.com/superbrothers/kubectl-service-plugin/releases/download/#{version}/service-darwin-amd64.zip"
-  sha256 "eec1b82725b8c660ba2b1fb3436273b2082179650eef5f4d7d96fb7e36291dc9"
+  sha256 "8197bc5506c628381cf1ae73ec03cc44d0513f6ca102d8b7165ba7dff034208e"
 
   def install
     prefix.install Dir["*"]
