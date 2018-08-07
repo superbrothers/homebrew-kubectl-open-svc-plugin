@@ -1,3 +1,3 @@
-# homebrew-kubectl-service-plugin
+# homebrew-kubectl-open-svc-plugin
 
-A Homebrew formula for [superbrothers/kubectl-service-plugin](https://github.com/superbrothers/kubectl-service-plugin).
+A Homebrew formula for [superbrothers/kubectl-open-svc-plugin](https://github.com/superbrothers/kubectl-open-svc-plugin).

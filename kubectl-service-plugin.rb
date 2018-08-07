@@ -10,6 +10,9 @@ class KubectlServicePlugin < Formula
   end
 
   def caveats; <<~EOS
+    This plugin was renamed to "open-svc", so please use "kubectl-open-svc-plugin" instead.
+    Note that this formula will be removed in the near future.
+
     Run the following commands in terminal:
       mkdir -p ~/.kube/plugins && \\
       rm -rf ~/.kube/plugins/kubectl-service-plugin && \\
